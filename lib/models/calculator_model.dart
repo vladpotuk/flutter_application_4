@@ -15,6 +15,7 @@ class CalculatorModel {
 
   void evaluate() {
     try {
+      // Используем выражение Dart для вычисления результата
       _result = double.parse(_display);
       _display = _result.toString();
     } catch (e) {
