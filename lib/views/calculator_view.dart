@@ -56,9 +56,13 @@ class CalculatorView extends StatelessWidget {
                 controller.updateDisplay(symbol);
               }
             },
+            style: ElevatedButton.styleFrom(
+              padding: EdgeInsets.all(20.0),
+              minimumSize: Size(80.0, 80.0),
+            ),
             child: Text(
               symbol,
-              style: TextStyle(fontSize: 20.0),
+              style: TextStyle(fontSize: 24.0),
             ),
           );
         }).toList(),

@@ -46,7 +46,7 @@ class CalculatorModel {
           if (secondOperand != 0) {
             result = _firstOperand / secondOperand;
           } else {
-            result = double.infinity; // Handle division by zero
+            result = double.infinity;
           }
           break;
         default:
